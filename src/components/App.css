@@ -1,0 +1,28 @@
+.App {
+  padding-top: 30px;
+  align-items: center;
+  text-align: center;
+  font-size: 60px;
+  color: black;
+  font-family: 'Gabriola' ;
+  max-width: 800px;
+  height: 780px;
+  background-image: url('https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: 180%; 
+  background-position: top, center; 
+  background-repeat: no-repeat;
+}
+.Footer {
+  bottom: 0%;
+  width: 100%;
+  height: 100px;
+  padding-top: 5px;
+  background-color: cadetblue;
+  font-size: 24px;
+  color: black;
+  font-family: 'Gabriola' ;
+  vertical-align: bottom;
+}
+.Image {
+  height: 40px;
+}

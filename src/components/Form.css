@@ -1,0 +1,15 @@
+.Form {
+    font-family: 'Gabriola' ;
+    font-size: 30px;
+    max-width: 200px;
+}
+
+.SubmitButton {
+    font-family: 'Gabriola' ;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 100px;
+    background-color: gainsboro;
+    border-color:cadetblue;
+}
