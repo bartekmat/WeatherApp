@@ -1,0 +1,12 @@
+.Result {
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+.ResultList{
+    height: 375px;
+}
+.Image {
+    height: 50px;
+    vertical-align: bottom;
+}
