@@ -20,16 +20,16 @@ const Result = (props) => {
                     Location: {city}
                 </div>
                 <div className="Result">
-                    Temperature:  {temp} C
-                </div>
-                <div className="Result">
-                      {weatherInfo} 
-                </div>
-                <div className="Result">
                     Pressure:  {pressure} Hpa
                 </div>
                 <div className="Result">
                     Wind Speed:  {wind} kmh
+                </div>
+                <div className="Result">
+                      {weatherInfo} 
+                </div>
+                <div className="Temp">
+                    {temp} &#x2103;
                 </div>
             </div>
         );

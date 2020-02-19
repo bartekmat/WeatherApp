@@ -8,9 +8,9 @@ const ConditionImage = (conditions) => {
     if(conditions.includes('clouds')){
         image = (
             <img 
-            src="https://img.icons8.com/plasticine/100/000000/partly-cloudy-day.png" 
+            src="https://img.icons8.com/plasticine/200/000000/partly-cloudy-day.png" 
             alt=""
-            className="Image"
+            height="160px"
             >
             </img>
         );
@@ -18,9 +18,9 @@ const ConditionImage = (conditions) => {
     if(conditions.includes('snow')){
         image = (
             <img 
-            src="https://img.icons8.com/plasticine/100/000000/snow.png" 
+            src="https://img.icons8.com/plasticine/200/000000/snow.png" 
             alt=""
-            className="Image"
+            height="160px"
             >
             </img>
         );
@@ -29,16 +29,20 @@ const ConditionImage = (conditions) => {
     if(conditions.includes('clear sky')){
         image = (
             <img 
-            src="https://img.icons8.com/plasticine/100/000000/sun.png" 
+            src="https://img.icons8.com/plasticine/200/000000/sun.png" 
             alt=""
-            className="Image"
+            height="160px"
             >
             </img>
         );
     }
         return (
-            <div>
-              Weather Conditions:  {image} {conditions}
+            <div className="Result">
+              Weather Conditions: {conditions}
+              <div className="Image">
+                  {image} 
+              </div>
+               
             </div>  
       );
     

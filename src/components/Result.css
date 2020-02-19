@@ -3,10 +3,14 @@
     font-size: 30px;
     line-height: 50px;
 }
+.Temp {
+    line-height: 300px;
+    font-size: 60px;
+}
 .ResultList{
-    height: 375px;
+    height: 570px;
 }
 .Image {
-    height: 50px;
-    vertical-align: bottom;
+    line-height: 30px;
+    vertical-align: middle;
 }
